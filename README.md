@@ -12,13 +12,13 @@
 ### 1. Build the Image
 
 ```bash
-docker build -t flask-application .
+docker build -t docker-tweet-gen .
 ```
 
 ### 2. Run the Container
 
 ```bash
-docker run -p 5001:5000 --rm --name flask-container flask-application
+docker run -p 5001:3000 --rm --name tweet-gen-container docker-tweet-gen
 ```
 
 ### 3. Access via Browser
