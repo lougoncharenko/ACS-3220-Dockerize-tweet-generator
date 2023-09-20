@@ -12,13 +12,13 @@
 ### 1. Build the Image
 
 ```bash
-docker build -t docker-tweet-gen .
+docker build -t docker-tweet-generator .
 ```
 
 ### 2. Run the Container
 
 ```bash
-docker run -p 5001:3000 --rm --name tweet-gen-container docker-tweet-gen
+docker run -p 5001:3000 --rm --name tweet-generator-container docker-tweet-generator
 ```
 
 ### 3. Access via Browser
