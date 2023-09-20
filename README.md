@@ -12,13 +12,13 @@
 ### 1. Build the Image
 
 ```bash
-docker build -t flask-image .
+docker build -t flask-application .
 ```
 
 ### 2. Run the Container
 
 ```bash
-docker run -p 5001:5000 --rm --name flask-container flask-image
+docker run -p 5001:5000 --rm --name flask-container flask-application
 ```
 
 ### 3. Access via Browser

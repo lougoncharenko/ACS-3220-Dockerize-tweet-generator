@@ -1,0 +1,24 @@
+function histogram with text_file as an argument: 
+    open text_file as a file
+    read the file
+    return file as a variable
+    close file
+
+set corpus variable to function histogram()
+
+function unique_words  with histogram variable as argument
+    unique_list = []
+    for words in histogram
+        if words not in unique_list
+            add to unique_list
+    return unique_list
+
+
+function frequency takes in unique_list and corpus
+    make empty dictionary called histogram
+    add unique list words as keys
+    set all the values to 0
+
+    for words in corpus
+     if word matches histogram.key
+        histogram.value +
